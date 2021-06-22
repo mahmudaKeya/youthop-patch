@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: #efecec; 
+}
+
+.navbar{
+    background: #B33F40;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 1px;
+    font-weight: 1000px;
+    
+    
+}
+
+
+
+.cards_wrap{
+    /*padding: 600px;
+    width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.cards_wrap .card_item{
+    padding: 15px 25px;
+    width: 20%;
+}
+
+.cards_wrap .card_inner{
+   background: #fff;
+   border-radius: 10px;
+   padding: 30px 20px; 
+   min-width: 210px;
+   min-height: 315px;
+   width: 100%;
+   text-align: center;
+}
+
+.cards_wrap .card_inner img{
+    display: flex;
+    width: 100%; 
+}
+
+.cards_wrap .card_inner .name{
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.cards_wrap .card_inner .description{
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards_wrap .card_item{
+      width: 33%;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards_wrap .card_item{
+      width: 50%;  
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .cards_wrap .card_item{
+      width: 100%;  
+    }
+}
+
+/*.stack{
+    display: flex;
+    flex-wrap: wrap;
+    --gap_1: 20rem;
+    --gap_2: 5rem;
+}
+
+.stack > * {
+    margin-left: var(--gap_1);
+    margin-bottom: var(--gap_2);
+}*/
+
+.stack{
+    display: flex;
+    
+    flex-wrap: wrap;
+    --gap_left: 15rem;
+    --gap_bottom: 5rem;
+}
+
+.stack > * {
+    margin-left: var(--gap_left) ;
+    margin-bottom: var(--gap_bottom);
+}
+
+
+.btn{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #971e20;
+    border-radius: 25px;
+    margin-top: 90px;padding: 10px 40px;
+    box-sizing: border-box;
+    /* padding: 25px 25px;
+    border-radius: 25px;
+    
+    background-color: royalblue;
+    margin-left: 5px; */
+}
+
+@media only screen and (max-width:768px){
+    a.btn{
+        width: 50%;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 25px;
+        border-radius: 25px;
+        display: inline-block;
+        background-color: #4CAF50;
+        width: 100%;
+    }
+} */

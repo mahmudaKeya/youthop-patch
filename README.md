@@ -1,4 +1,4 @@
 # youthop-patch
-Intern at Youth-Opportunities Project Team.
+Intern at Youth-Opportunities Project Team.\n
 Project: Draft of Website for Humans of Youth Opportunities.
 Purpose: Want to contribute to the organization. 
